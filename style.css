@@ -20,18 +20,23 @@ body{
     
 }
 
+.card{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
 .QR-image{
     width: 100%;
     border-radius: 1rem;
-    display: block;
-    left: 30px;
+    margin-bottom: 2rem;
     
    
 }
 
 #content-text{
     text-align: center;
-    margin-top: 20%;
+
     
     
 }
@@ -41,6 +46,7 @@ h2{
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 16px;
+   
 }
 
 p {
@@ -61,40 +67,30 @@ p {
   @media screen and (min-width:820px) {
     
     body{
-        font-family: 'Outfit', sans-serif;
+       
         background-color: hsl(212, 45%, 89%);
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        flex-direction: column;
         width: 100%;
         height: 100%;
         
         
     }
-
-    .QR-image{
-        width: 100%;
-        border-radius: 1rem;
-        display: block;
         
-
+    .card{
+        width: 30%;
     }
+    
 
     h2{
         color: hsl(218, 44%, 22%);
         font-size: 32px;
-        font-weight: 700;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
         
     }
 
     p {
-        color: hsl(220, 15%, 55%);
         font-size: 20px;
-        font-weight: 400;
+        margin-bottom: 1rem;
+       
         
       }
   }
